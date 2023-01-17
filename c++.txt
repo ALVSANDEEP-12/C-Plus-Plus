@@ -1,0 +1,74 @@
+c++:
+-->C++ was developed as an extension of C, and both languages have almost the same syntax.
+-->The main difference between C and C++ is that C++ support classes and objects, while C does not support.
+
+#include<iostream> is header file library that lets us work with input and output objects
+
+'using namespace std' means we can use names for objects and variables from the standard library.
+
+*Omitting Namespace: using "std::"
+
+#include<iostream>
+
+int main()
+{
+  std::cout<<"hello-world";
+  return 0;
+}
+
+note:
+-->The newline character (\n) is called an escape sequence.
+-->using two \n\n it will gets one line gap
+-->can use "endl" instead of \n
+-->Both \n and endl are used to break lines. However, \n is most used.
+-->\t	Creates a horizontal tab
+
+REFERENCE FOR ASCII:
+https://www.w3schools.com/charsets/ref_html_ascii.asp
+
+NOTE:
+--> + is used for addition of two numbers.
+--> + is also used for string concatenation.
+--> length() or size() will gets the same output.
+
+-->To access the strings use concept of index in it.
+
+strings:
+1.concatenation
+2.append()
+3.length() or size()
+4.accessing the strings using index concept
+5.changing the string characters using index
+6.getline(cin,name) //prints entire name..
+
+eg: I entered the fullname as sandeep adari but here prints only sandeep and adari is missing.
+-->To overcome this problem use the function called getline();
+
+**IMPORTANT MATH LIBRARIES**:
+1.min
+2.max
+3.sqrt
+4.log
+5.round
+6.floor -->rounded down to its nearest integer
+7.ceil  -->rounded up to its nearest integer
+8.pow
+9.cbrt(cube root)
+
+**Conditional Statements**:
+1.if else,else if
+2.switch -->break,default(no case is matched with variable given)
+
+foreach:
+when foreach is not working in devc++ please do these steps
+Go to the "Tools" Option
+Select "Compiler Options"
+Click "Settings"
+Click "Code Generation"
+Go to "Choose Language" and select "ISO C++11"
+
+
+
+
+
+
